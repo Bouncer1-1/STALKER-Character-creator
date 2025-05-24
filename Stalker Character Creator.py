@@ -6,7 +6,7 @@ nick_suffixes = ["Dog", "Raven", "Jackal", "Fox", "Bear", "Vulture", "Shadow", "
 
 # Pre-Zone professions
 professions = [
-    "Factory Worker", "Mechanic", "Night Watchman", "Soldier", "Smuggler", "Scavenger", "Paramedic", "Grave Digger", "Bus Driver", "Ex-Soldier", "Sailor",
+    "Factory Worker", "Mechanic", "Night Watchman", "Soldier", "Smuggler", "Scavenger", "Paramedic", "Grave Digger", "Bus Driver", "Ex-Soldier", "Sailor"
 ]
 
 # Motivations
@@ -26,7 +26,11 @@ starting_items = [
 ]
 
 # Locations
-origins = ["Ukraine", "Belarus", "Russia", "Poland", "Latvia", "Moldova", "Romania", "Czechia", "Slovakia", "Bulgaria", "Estonia", "Lithuania", "Croatia", "Kosovo", "Herzegovina", "Turkey", ""]
+origins = ["Ukraine", "Belarus", "Russia", "Poland", "Latvia", "Moldova", "Romania",
+            "Czechia", "Slovakia", "Bulgaria", "Estonia", "Lithuania", "Croatia", "Kosovo", "Herzegovina", "Turkey", ""
+            "Serbia", "Montenegro", "Slovenia", "Hungary", "Austria", "Germany", "Italy",
+            "France", "Spain", "Portugal", "Greece", "Sweden", "Norway", "Finland", "Denmark",
+            ]
 
 def generate_character():
     name = f"{random.choice(nick_prefixes)} {random.choice(nick_suffixes)}"
