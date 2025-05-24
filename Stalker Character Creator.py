@@ -1,12 +1,12 @@
 import random
 
 # Character name components
-nick_prefixes = ["Cold", "Mad", "Iron", "Silent", "Bloody", "Lucky", "Broken", "Tired", "Broken"]
-nick_suffixes = ["Dog", "Raven", "Jackal", "Fox", "Bear", "Vulture", "Shadow"]
+nick_prefixes = ["Cold", "Mad", "Iron", "Silent", "Bloody", "Lucky", "Broken", "Tired", "Old", "Young", "Cursed", "Fallen", "Lost", "Dead", "Ghost", "Wandering", "Forgotten", "Eternal"]
+nick_suffixes = ["Dog", "Raven", "Jackal", "Fox", "Bear", "Vulture", "Shadow", "Wolf", "Hawk", "Crow", "Eagle", "Scorpion", "Spider", "Serpent", "Dragon", "Tiger", "Lion", "Panther"]
 
 # Pre-Zone professions
 professions = [
-    "Factory Worker", "Mechanic", "Night Watchman", "Soldier", "Smuggler", "Scavenger", "Paramedic", "Grave Digger", "Bus Driver", "Ex-Soldier", "Sailor"
+    "Factory Worker", "Mechanic", "Night Watchman", "Soldier", "Smuggler", "Scavenger", "Paramedic", "Grave Digger", "Bus Driver", "Ex-Soldier", "Sailor",
 ]
 
 # Motivations
