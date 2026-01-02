@@ -1,12 +1,19 @@
 import random
 
 # Character name components
-nick_prefixes = ["Cold", "Mad", "Iron", "Silent", "Bloody", "Lucky", "Broken", "Tired", "Old", "Young", "Cursed", "Fallen", "Lost", "Dead", "Ghost", "Wandering", "Forgotten", "Eternal"]
-nick_suffixes = ["Dog", "Raven", "Jackal", "Fox", "Bear", "Vulture", "Shadow", "Wolf", "Hawk", "Crow", "Eagle", "Scorpion", "Spider", "Serpent", "Dragon", "Tiger", "Lion", "Panther"]
+nick_prefixes = [
+    "Cold", "Mad", "Iron", "Silent", "Bloody", "Lucky", "Broken", "Tired",
+    "Old", "Young", "Cursed", "Fallen", "Lost", "Dead", "Ghost", "Wandering", "Forgotten", "Eternal"
+]
+nick_suffixes = [
+    "Dog", "Raven", "Jackal", "Fox", "Bear", "Vulture", "Shadow",
+    "Wolf", "Hawk", "Crow", "Eagle", "Scorpion", "Spider", "Serpent", "Dragon", "Tiger", "Lion", "Panther"
+]
 
 # Pre-Zone professions
 professions = [
-    "Factory Worker", "Mechanic", "Night Watchman", "Soldier", "Smuggler", "Scavenger", "Paramedic", "Grave Digger", "Bus Driver", "Ex-Soldier", "Sailor"
+    "Factory Worker", "Mechanic", "Night Watchman", "Soldier", "Smuggler", "Scavenger",
+    "Paramedic", "Grave Digger", "Bus Driver", "Ex-Soldier", "Sailor"
 ]
 
 # Motivations
@@ -22,15 +29,17 @@ alignment_suffix = ["Good", "Neutral", "Evil"]
 starting_items = [
     "Old Hunting knife", "Toolkit", "Pocket flashlight",
     "Family photo", "Tattered raincoat", "Pack of cigarettes",
-    "Vodka flask", "Personal Notebook", "Old Zippo Lighter", ""
+    "Vodka flask", "Personal Notebook", "Old Zippo Lighter"
 ]
 
 # Locations
-origins = ["Ukraine", "Belarus", "Russia", "Poland", "Latvia", "Moldova", "Romania",
-            "Czechia", "Slovakia", "Bulgaria", "Estonia", "Lithuania", "Croatia", "Kosovo", "Herzegovina", "Turkey", ""
-            "Serbia", "Montenegro", "Slovenia", "Hungary", "Austria", "Germany", "Italy",
-            "France", "Spain", "Portugal", "Greece", "Sweden", "Norway", "Finland", "Denmark",
-            ]
+origins = [
+    "Ukraine", "Belarus", "Russia", "Poland", "Latvia", "Moldova", "Romania",
+    "Czechia", "Slovakia", "Bulgaria", "Estonia", "Lithuania", "Croatia", "Kosovo",
+    "Herzegovina", "Turkey", "Serbia", "Montenegro", "Slovenia", "Hungary", "Austria",
+    "Germany", "Italy", "France", "Spain", "Portugal", "Greece", "Sweden", "Norway", 
+    "Finland", "Denmark"
+]
 
 def generate_character():
     name = f"{random.choice(nick_prefixes)} {random.choice(nick_suffixes)}"
